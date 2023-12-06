@@ -20,3 +20,41 @@
   padding: 9px 25px;
   cursor: pointer;
 }
+.bg-color-watch, .bg-color-bag, .bg-color-shoes {
+  color: #ffffff;
+  border-radius: 10px;
+  /* padding: 10px 30px; */
+}
+.bg-color-watch{
+  background-image: linear-gradient(to bottom, #faff5f 0%, #66ff13d4 100%);
+}
+.bg-color-bag{
+  background-image: linear-gradient(to bottom, #fd4444 0%, #ff136e 100%);
+}
+.bg-color-shoes{
+  background-image: linear-gradient(to bottom, #5441c0 0%, #134effd4 100%);
+}
+.categories img {
+  padding: 20px;
+  width: 150px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px lightblue;
+}
+.card-footer {
+  background-color: #fff;
+  border-top: none;
+}
+
+.subscribe-secsion {
+  height: 320px;
+}
+.form-control {
+  margin-bottom: 5px;
+}
+footer {
+  text-align: center;
+}
